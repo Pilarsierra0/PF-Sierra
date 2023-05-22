@@ -1,0 +1,443 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Advertencia & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+body{
+    background-color: efd9ce;
+    background: url(../img/imagefondo.jpg);
+    /*background: url( https://www.tomares.es/sites/default/files/30112019-erickfernandoq-4470.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+      
+}
+
+.menu{
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.link-menu {
+    color: beige;
+    text-decoration: none;
+    padding: 80px;
+    text-align: center;
+    margin-left: 200px;
+}
+header{
+    background-color:rgb(207,46,46) ;
+    text-align: center ;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 29px;
+    
+}
+
+li{
+    display: inline-block;
+    width: 133px;
+    margin-right: 87px;
+    margin-top: 5px;
+} 
+
+h1{
+    text-align: center;
+    font-size: 50px;
+
+    height: 70px;
+    width: 380px;
+    justify-content: center;
+    position: absolute;
+    left: 500px;
+    top: 240px;
+    font-family: 'Sigmar', cursive;
+    
+     
+}
+
+.varias-secciones{
+    display: flex;
+    text-decoration: none;
+    margin: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100%;
+    text-align: center;
+    position: relative;
+    top: 370px;
+    background-color: white;
+    font-family: 'Sigmar', cursive;
+    color: black;
+    width: 1000px;
+}
+.link-menu:hover{
+    color: rgb(23, 182, 44);
+}
+
+/*INDEX*/
+.logo{
+    display: flex;
+    height: 180px;
+    justify-content: right;
+    margin-right: 100%;
+    position: absolute;
+    margin-bottom: 600px;
+    margin-left: 50px;
+    border-radius: 50px;
+    
+}
+.cancionespop{
+    background-color: rgb(218, 26, 19,0.6);
+    height: 50%;
+    margin: 4%;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: -700px;
+    font-family: 'Sigmar', cursive;
+    
+}
+
+.pop{
+    display: flex;
+    
+    flex-wrap: nowrap;
+    margin-left: 70px;
+    justify-content: space-between;
+   /* grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
+    grid-gap:20px ;*/
+
+}
+.galeria {
+    display: flex;
+    margin-right: 70px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.img-index{
+    width: 90%;
+    height: 500px;
+    
+}
+.foto .img-index{
+    padding-right: 20px;
+}
+
+.descripcion{
+    background-color: beige;
+    font-size: 18px;
+    align-items: center;
+}
+  
+  /*.foto {
+    margin-left: 328px;
+    width: 0px;
+    height: 0px;
+  }
+  
+ .foto .img{
+
+    width: 0px; 
+    height: 0px; 
+  }
+  
+  .foto .descripcion {
+    display: flex;
+    margin-top: 26px; 
+    font-size: 19px;
+    height: 210px;
+    width:250px ;
+    background-color:  rgb(245, 245, 245,0.8);
+    margin-left: -100px;
+  }
+  
+
+
+/*Noticias*/
+
+
+.varias-secciones2{
+    background-color: darksalmon;
+    font-family: 'Sigmar', cursive;
+    margin-left: 569px;
+    display: flex;
+    margin-bottom: 400px;
+    width: 770px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.logo1{
+    display: flex;
+    height: 150px;
+    justify-content: right;
+    margin-right: 100%;
+    position: absolute;
+    margin-bottom: 400px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+.secciones{
+    
+    list-style: none;
+    text-decoration: none;
+    color: beige;
+    display: flex;
+    text-align: center;
+    top:10px;
+    position: relative;
+    margin-bottom: 3px;
+    font-size: 18px;
+    color: black;
+
+}
+
+.contenedor-titulo{
+    display: flex;
+}
+
+.titulo{
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 218px;
+    height: 86px;
+    width: 517px;
+    color: black;   
+}
+
+.footer2{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    padding: -39px;
+    margin-top: 700px;
+    height:20px ;
+
+} 
+
+
+
+
+
+
+
+
+
+.image{
+    font-family: 'Caveat', cursive;
+    height: 400px;
+    width: 200px;
+    font-size: 15px;
+    background-color: rgb(233, 233, 233,0.4);
+    
+}
+
+.portada{
+    width: 100%;
+    
+
+}
+
+.imageConteiner{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    padding: -15px;
+    margin-top: 600px;
+ 
+}
+.footerTienda li a{
+    text-decoration: none;
+}
+
+
+
+/*.img-not{
+    display: flex;
+    font-family: 'Caveat', cursive;
+    height: 200px;
+    width: 1000px;
+    font-size: 15px;
+    float: right;  
+    margin-left: -107px; 
+    margin-right: -890px ;
+   
+}
+
+.noticia1{
+    width: 500px;
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-top: 150px;
+    height: 300px;
+}
+
+.noticias{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color:rgb(217, 93, 57,0.8) ;
+    height: 2000px;
+
+}
+
+ .parrafo1 {
+    margin-left: -2px;
+    font-size: 15px;
+    margin-right: -271px;
+    width: 2000px;
+    height: 255px;
+    color: azure;
+    font-weight: bold;
+    margin-top: 150px;
+ }
+
+.parrafo2{
+    margin-left: -2px;
+    font-size: 15px;
+    width: 1190px;
+    height: 255px;
+    color: azure;
+    font-weight: bold;
+    margin-top: 190px;
+    display: block;
+}
+.noticia2{
+    height: 200px;
+    width: 600px;
+    margin-right: 100px;
+    margin-top: 159px;
+    margin-left: 150px;
+   display: block;
+   
+
+}
+.noticia3{
+    height: 300px;
+    width: 800px;
+    margin-right: 100px;
+    margin-top: 360px;
+    margin-left: 150px;
+   display: block;
+
+}
+.parrafo3{
+    margin-left: -2px;
+    font-size: 15px;
+    width: 1190px;
+    height: 255px;
+    color: azure;
+    font-weight: bold;
+    margin-top: 365px; 
+}/*
+
+
+
+
+
+
+/*BIOGRAFIA*/
+ 
+.row{
+    background-color: darksalmon;
+    height:60px ;
+    width:616px ;
+    border: 1px solid sandybrown;
+    display: flex;
+    margin-top: 144px;
+    font-family: 'Sigmar', cursive;
+    margin-left: 466px;
+    margin-right: 100px;
+}
+
+.img-carousel{
+    width: 1000px;
+    height: 600px;
+    margin-left: 180px;
+    margin-top: px;
+
+}
+p{
+    font-size: 10px;
+    
+}
+
+
+
+
+/*MEDIA QUERIES*/
+@media screen and(max-width: 768px) {
+.menu{
+    background-color: aqua;
+
+}
+.viariassecciones{
+    background-color: blueviolet;
+}
+
+.cancionespop{
+    background-color: aqua;
+}
+
+}
+
+@media screen and(max-width: 480px){
+    .viariassecciones{
+        background-color: blueviolet;
+    }
+    h1{
+        color: blue;
+    }
+    .cancionespop{
+        background-color: aqua;
+    }
+
+    .pop{
+        flex-direction: column;
+
+    }
+
+}
+
+     
+     
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
