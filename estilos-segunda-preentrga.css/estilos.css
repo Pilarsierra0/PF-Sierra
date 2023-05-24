@@ -26,22 +26,23 @@ body{
 .menu{
     width: 100%;
     margin: 0%;
-    display: flex;
     justify-content: space-between;
+   
 }
 .link-menu {
     color: beige;
-    text-decoration: none;
     padding: 80px;
     text-align: center;
-    margin-left: 200px;
+    
 }
 header{
+    display: flex;
     background-color:rgb(207,46,46) ;
     text-align: center ;
     margin-bottom: 100px;
     width: 100%;
     height: 29px;
+    
     
 }
 
@@ -50,12 +51,13 @@ li{
     width: 133px;
     margin-right: 87px;
     margin-top: 5px;
+    
 } 
 
 h1{
     text-align: center;
     font-size: 50px;
-
+    display: flex;
     height: 70px;
     width: 380px;
     justify-content: center;
@@ -70,7 +72,6 @@ h1{
 .varias-secciones{
     display: flex;
     text-decoration: none;
-    margin: 80px;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 100%;
@@ -113,8 +114,6 @@ h1{
 
 .pop{
     display: flex;
-    
-    flex-wrap: nowrap;
     margin-left: 70px;
     justify-content: space-between;
    /* grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
@@ -173,12 +172,13 @@ h1{
 .varias-secciones2{
     background-color: darksalmon;
     font-family: 'Sigmar', cursive;
-    margin-left: 569px;
+    margin-left: 149px;
     display: flex;
     margin-bottom: 400px;
-    width: 770px;
+    width: 1200px;
     font-size: 30px;
     margin-top: 0px;
+    
 }
 
 .logo1{
@@ -204,6 +204,8 @@ h1{
     margin-bottom: 3px;
     font-size: 18px;
     color: black;
+    margin: 0%;
+    padding-right: 0%;
 
 }
 
@@ -365,10 +367,11 @@ footer{
     width:616px ;
     border: 1px solid sandybrown;
     display: flex;
-    margin-top: 144px;
+    margin-top: 160px;
     font-family: 'Sigmar', cursive;
     margin-left: 466px;
     margin-right: 100px;
+    margin-bottom: 500px;
 }
 
 .img-carousel{
@@ -379,15 +382,106 @@ footer{
 
 }
 p{
-    font-size: 10px;
+    font-size: 20px;
     
 }
+
+.visually-hidden{
+
+    margin-left: -100px;
+}
+
+
+/*BIOGRAFIA*/
+.container-bio{
+    max-width: 890px;
+    margin: auto;
+    padding: 20px;
+    width: 800px;
+    background-color:red;
+    
+}
+.title-bio{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 257px;
+    color: whitesmoke;
+}
+.contenido-bio{
+    font-size: 28px;
+    color: rgb(255, 245, 243);
+    margin-top: 12px;
+    width: 775px;
+   
+}
+
+/*VIDEOS CON MAS REPRODUCCIONES*/
+
+.title-video{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 257px;
+    color: whitesmoke;
+}
+
+.container-video {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+   .contenido-video {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  
+.contenido-video iframe {
+    width: 100%;
+  }
+  
+  .contenido-texto {
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+
+  }
+  .contenido-texto h2{
+    text-align: center;
+  }
+  
+
+  /*CONCIERTOS*/
+  .ticket-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 200px;
+  }
+  
+  .ticket-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .boton{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+ }
+  
+
+
+
+
+
+
 
 
 
 
 /*MEDIA QUERIES*/
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
 .menu{
     background-color: aqua;
 
@@ -399,10 +493,13 @@ p{
 .cancionespop{
     background-color: aqua;
 }
+.galeria{
+    flex-direction: column;
+}
 
 }
 
-@media screen and(max-width: 480px){
+@media screen and (max-width: 480px){
     .viariassecciones{
         background-color: blueviolet;
     }
@@ -413,9 +510,8 @@ p{
         background-color: aqua;
     }
 
-    .pop{
-        flex-direction: column;
-
+    header{
+        max-width: 100%;
     }
 
 }
