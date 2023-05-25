@@ -117,8 +117,6 @@ h1{
     display: flex;
     margin-left: 70px;
     justify-content: space-between;
-   /* grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
-    grid-gap:20px ;*/
 
 }
 .galeria {
@@ -143,27 +141,6 @@ h1{
     align-items: center;
 }
   
-  /*.foto {
-    margin-left: 328px;
-    width: 0px;
-    height: 0px;
-  }
-  
- .foto .img{
-
-    width: 0px; 
-    height: 0px; 
-  }
-  
-  .foto .descripcion {
-    display: flex;
-    margin-top: 26px; 
-    font-size: 19px;
-    height: 210px;
-    width:250px ;
-    background-color:  rgb(245, 245, 245,0.8);
-    margin-left: -100px;
-  }
   
 
 
@@ -276,91 +253,12 @@ footer{
 
 
 
-/*.img-not{
-    display: flex;
-    font-family: 'Caveat', cursive;
-    height: 200px;
-    width: 1000px;
-    font-size: 15px;
-    float: right;  
-    margin-left: -107px; 
-    margin-right: -890px ;
-   
-}
-
-.noticia1{
-    width: 500px;
-    margin-right: 100px;
-    margin-left: 150px;
-    margin-top: 150px;
-    height: 300px;
-}
-
-.noticias{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    background-color:rgb(217, 93, 57,0.8) ;
-    height: 2000px;
-
-}
-
- .parrafo1 {
-    margin-left: -2px;
-    font-size: 15px;
-    margin-right: -271px;
-    width: 2000px;
-    height: 255px;
-    color: azure;
-    font-weight: bold;
-    margin-top: 150px;
- }
-
-.parrafo2{
-    margin-left: -2px;
-    font-size: 15px;
-    width: 1190px;
-    height: 255px;
-    color: azure;
-    font-weight: bold;
-    margin-top: 190px;
-    display: block;
-}
-.noticia2{
-    height: 200px;
-    width: 600px;
-    margin-right: 100px;
-    margin-top: 159px;
-    margin-left: 150px;
-   display: block;
-   
-
-}
-.noticia3{
-    height: 300px;
-    width: 800px;
-    margin-right: 100px;
-    margin-top: 360px;
-    margin-left: 150px;
-   display: block;
-
-}
-.parrafo3{
-    margin-left: -2px;
-    font-size: 15px;
-    width: 1190px;
-    height: 255px;
-    color: azure;
-    font-weight: bold;
-    margin-top: 365px; 
-}/*
 
 
 
 
 
-
-/*BIOGRAFIA*/
+/*carrousel noticias*/
  
 .row{
     background-color: darksalmon;
@@ -486,7 +384,7 @@ p{
 /*MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
 .menu{
-    background-color: aqua;
+    background-color: rgb(245, 135, 46);
 
 }
 .viariassecciones{
@@ -494,7 +392,7 @@ p{
 }
 
 .cancionespop{
-    background-color: aqua;
+    background-color: rgb(245, 135, 46);
 }
 .galeria{
     flex-direction: column;
@@ -504,15 +402,11 @@ p{
 
 @media screen and (max-width: 480px){
     .viariassecciones{
-        background-color: blueviolet;
-    }
-    h1{
-        color: blue;
+        background-color:rgb(245, 135, 46);
     }
     .cancionespop{
-        background-color: aqua;
+        background-color: rgb(245, 135, 46);
     }
-
     header{
         max-width: 100%;
     }
