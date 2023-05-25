@@ -366,7 +366,6 @@ footer{
     background-color: darksalmon;
     height:60px ;
     width:616px ;
-    border: 1px solid sandybrown;
     display: flex;
     margin-top: 160px;
     font-family: 'Sigmar', cursive;
@@ -414,6 +413,9 @@ p{
     margin-top: 12px;
     width: 775px;
    
+}
+.indice{
+    margin-bottom: 10px;
 }
 
 /*VIDEOS CON MAS REPRODUCCIONES*/
