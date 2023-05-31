@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Advertencia & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@700&display=swap');
+
+
 
 *{
     padding: 0;
@@ -14,8 +18,7 @@
 
 body{
     background-color: efd9ce;
-    background: url(../img/imagefondo.jpg);
-    /*background: url( https://www.tomares.es/sites/default/files/30112019-erickfernandoq-4470.jpg);*/
+    background: url(https://img.freepik.com/vector-premium/patron-fondo-abstracto-colores_600765-1413.jpg?w=2000);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -65,7 +68,8 @@ h1{
     position: absolute;
     left: 500px;
     top: 240px;
-    font-family: 'Sigmar', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Sigmar', cursive;*/
     
      
 }
@@ -148,7 +152,7 @@ h1{
 
 
 .varias-secciones2{
-    background-color: darksalmon;
+    background-color:rgb(207,46,46) ;
     font-family: 'Sigmar', cursive;
     margin-left: 149px;
     display: flex;
@@ -196,7 +200,7 @@ h1{
     align-items: flex-start;
     margin-top: 218px;
     height: 86px;
-    width: 517px;
+    width: 400px;
     color: black;   
 }
 
@@ -260,13 +264,15 @@ footer{
 
 /*carrousel noticias*/
  
+
 .row{
-    background-color: darksalmon;
-    height:60px ;
-    width:616px ;
+    background-color: rgb(207,46,46);
+    height:90px ;
+    width:710px ;
     display: flex;
     margin-top: 160px;
-    font-family: 'Sigmar', cursive;
+    align-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
     margin-left: 466px;
     margin-right: 100px;
     margin-bottom: 500px;
@@ -316,6 +322,50 @@ p{
     margin-bottom: 10px;
 }
 
+.biography {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
 /*VIDEOS CON MAS REPRODUCCIONES*/
 
 .title-video{
@@ -350,7 +400,7 @@ p{
   
 
   /*CONCIERTOS*/
-  .ticket-sections {
+ /* .ticket-sections {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -369,13 +419,101 @@ p{
     border: none;
     padding: 10px 20px;
     cursor: pointer;
- }
+ }*/
+  
+
+ .ticket-section {
+    background-color: #ce1e1e;
+    padding: 40px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+    display: grid;
+    text-align: center;
+  }
+  
+  .ticket-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ticket {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .ticket h3 {
+    color: #333333;
+    font-size: 20px;
+  }
+  
+  .ticket p {
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .buy-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
   
 
 
-
-
-
+  .ticket-seleccion {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 95px;
+    margin-top: -100px ;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .form-grupo {
+    flex-basis: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  
 
 
 

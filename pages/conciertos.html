@@ -71,7 +71,7 @@
 
 
 
-        <div class="ticket-sections">
+       <!-- <div class="ticket-sections">
           <div class="ticket-section">
             <h2>concierto </h2>
             <p></p>
@@ -101,8 +101,61 @@
               <input type="submit" value="Comprar" class="boton">
             </form>
           </div>
-        </div>
+        </div>-->
 
+        <section class="ticket-seleccion">
+          <h2>¡SELECCIONA EL LUGAR FECHA Y HORA DISPONIBLES!</h2>
+          <div class="form-container">
+            <div class="form-grupo">
+              <label for="place">Lugar:</label>
+              <select id="place" name="place">
+                <option value="1">Planta Baja</option>
+                <option value="2">Planta Alta</option>
+                <option value="3">Zona Vip</option>
+              </select>
+            </div>
+            <div class="form-grupo">
+              <label for="date">Fecha:</label>
+              <input type="date" id="date" name="date">
+            </div>
+            <div class="form-grupo">
+              <label for="time">Hora:</label>
+              <input type="time" id="time" name="time">
+            </div>
+            <button class="submit-button">Confirmar</button>
+          </div>
+        </section>
+        
+
+
+
+
+
+
+
+        <section class="ticket-section">
+          <h2>Compra tu Entrada</h2>
+          <div class="ticket-container">
+            <div class="ticket">
+              <h3>Entrada General</h3>
+              <p>Disfruta del concierto con acceso general</p>
+              <p class="precio">$8.000</p>
+              <button class="buy-button">Comprar</button>
+            </div>
+            <div class="ticket">
+              <h3>Entrada VIP</h3>
+              <p>Acceso preferencial y zona VIP</p>
+              <p class="precio">$15.000</p>
+              <button class="buy-button">Comprar</button>
+            </div>
+            <div class="ticket">
+              <h3>Entrada y Backstage</h3>
+              <p>Acceso al backstage y encuentro con la banda</p>
+              <p class="precio">$20.800</p>
+              <button class="buy-button">Comprar</button>
+            </div>
+          </div>
+        </section>
         
 
 
