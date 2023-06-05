@@ -198,7 +198,7 @@ h1{
 .titulo{
     justify-content: center;
     align-items: flex-start;
-    margin-top: 218px;
+    margin-top: 300px;
     height: 86px;
     width: 400px;
     color: black;   
@@ -273,7 +273,7 @@ footer{
     margin-top: 160px;
     align-content: space-around;
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 466px;
+    margin-left: 300px;
     margin-right: 100px;
     margin-bottom: 500px;
 }
@@ -346,12 +346,15 @@ p{
   .content img {
     width: 200px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 40px;
   }
   
   .content p {
     font-size: 16px;
     line-height: 1.5;
+    text-align: left;
+    margin: 30px;
+
   }
   
 
@@ -368,13 +371,16 @@ p{
 
 /*VIDEOS CON MAS REPRODUCCIONES*/
 
-.title-video{
+.titulo-vid{
     font-size: 50px;
     margin-bottom: 10px;
     margin-top: 257px;
-    color: whitesmoke;
+    color: black;
 }
+.titulo-video{
+    display: flex;
 
+}
 .container-video {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
