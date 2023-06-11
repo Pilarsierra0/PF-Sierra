@@ -92,6 +92,44 @@ h1{
     color: rgb(23, 182, 44);
 }
 
+
+
+
+/*barra de navegacion hambuerguesa bootstrap*/
+
+
+.navbar{
+  margin-left: 500px;
+  margin-top: 250px;
+  width: 800px;
+  height: 50px;
+  margin-bottom: 500px;
+}
+.container-fluid{
+  background-color: #ce1e1e;
+}
+.navbar-nav{
+  margin-right: 30px;
+}
+.nav-item{
+  margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*INDEX*/
 .logo{
     display: flex;
@@ -405,30 +443,10 @@ p{
   }
   
 
-  /*CONCIERTOS*/
- /* .ticket-sections {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 200px;
-  }
   
-  .ticket-section {
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .boton{
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
- }*/
-  
+  /*conciertos*/
 
- .ticket-section {
+ /*.ticket-section {
     background-color: #ce1e1e;
     padding: 40px;
     margin-bottom: 50px;
@@ -472,7 +490,7 @@ p{
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
-  }
+  }*/
   
 
 
@@ -521,59 +539,57 @@ p{
   
   
 
+ 
 
-
-
-
-
-  /*body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }/*
-  
-  /*header {
-    background-color: #333;
-    color: #632626;
-    padding: 10px;
-  }*/
-  
-  .nav-seccion {
-    display: flex;
-    margin-left: -500px;
-    align-items: center;
-    margin-top: 200px;
-    margin-bottom: 400px;
-   
-  }
-  
-  .menu-seccion {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    margin-left: 1010px;
-    background-color: crimson;
-    
-  }
-  
-  .menu-seccion li {
-    padding: 0px;
-   margin-right: 0%;
-    
-  }
-  
-  .menu-seccion a {
-    color:black;
-    text-decoration: none;
+  .ticket-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    border: 4px solid #fffdfd;
+    padding: 20px;
     text-align: center;
+    background-color: #ff0000;
     
   }
   
-  .menu-icono {
-    display: none;
+  .precio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 10px;
   }
+  
+  .precio span:first-child {
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  .precio span:last-child {
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  button:hover {
+    background-color:whitesmoke;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 767px) {
+    .ticket-section {
+      grid-template-columns: 1fr;
+    }
+  }
+  
 
+
+
+
+  
+  
+  
 
 
 /*footer nuevo*/
@@ -622,9 +638,23 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /* Media Query para mostrar el menú en mobile */
-  @media  screen and (max-width: 600px) {
+  /*@media  screen and (max-width: 600px) {
     .menu-seccion {
       display: none;
     }
@@ -648,7 +678,7 @@ footer {
       width: 10px;
       padding: 20px;
     }
-  }
+  }*/
   
 
 
@@ -666,7 +696,7 @@ footer {
 
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 .menu{
     background-color: rgb(245, 135, 46);
 
@@ -682,20 +712,12 @@ footer {
     flex-direction: column;
 }
 
+.ticket-container{
+  grid-template-columns: 1fr;
 }
 
-@media screen and (max-width: 480px){
-    .viariassecciones{
-        background-color:rgb(245, 135, 46);
-    }
-    .cancionespop{
-        background-color: rgb(245, 135, 46);
-    }
-    header{
-        max-width: 100%;
-    }
+}*/
 
-}
 
      
      
