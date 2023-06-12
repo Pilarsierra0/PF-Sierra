@@ -35,7 +35,7 @@ body{
     height: 27px;
 }
 .link-menu {
-    color: beige;
+    color: rgb(233, 233, 223);
     padding: 80px;
     text-align: center;
     text-decoration: none;
@@ -585,7 +585,7 @@ footer {
 .text-izquierdo, .text-derecho, .link-medio {
   flex-basis: 33.33%;
   text-align: center;
-  
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .link-medio {
@@ -604,16 +604,55 @@ footer {
   .text-izquierdo, .text-derecho, .link-medio {
     flex-basis: 100%;
   }
+
+  footer{
+   height: 90px;
+  }
 }
 
 
 
 
 
+/*seccion index nuevo*/
 
 
 
 
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-item {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.image-caption h3,
+.image-caption p {
+  margin: 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .image-item {
+    width: 100%;
+  }
+}
 
 
 
