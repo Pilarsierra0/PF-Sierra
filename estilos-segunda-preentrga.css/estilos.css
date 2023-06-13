@@ -33,6 +33,7 @@ body{
     position: fixed;
     background-color: #ce1e1e;
     height: 27px;
+    
 }
 .link-menu {
     color: rgb(214, 214, 196);
@@ -40,6 +41,7 @@ body{
     text-align: center;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
+    
 }
 header{
     display: flex;
@@ -48,7 +50,7 @@ header{
     margin-bottom: 100px;
     width: 100%;
     height: 29px;
-    
+   
     
     
 }
@@ -91,6 +93,7 @@ h1{
     color: black;
     width: 1000px;
     height: 55px;
+    background-image: linear-gradient(to top red blue green);
 }
 .link-menu:hover{
     color: rgb(23, 182, 44);
@@ -624,6 +627,7 @@ footer {
   width: 300px;
   margin: 20px;
   text-align: center;
+  
 }
 
 .image-item img {
