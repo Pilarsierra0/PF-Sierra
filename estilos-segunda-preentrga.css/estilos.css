@@ -31,8 +31,9 @@ body{
     margin: 0%;
     justify-content: space-between;
     position: fixed;
-    background-color: #ce1e1e;
+    background: #ce1e1e;
     height: 27px;
+    
     
 }
 .link-menu {
@@ -93,7 +94,7 @@ h1{
     color: black;
     width: 1000px;
     height: 55px;
-    background-image: linear-gradient(to top red blue green);
+   
 }
 .link-menu:hover{
     color: rgb(23, 182, 44);
@@ -629,10 +630,14 @@ footer {
   text-align: center;
   
 }
+.img-index:hover{
+  transform: rotate(350deg);
+}
 
 .image-item img {
   width: 100%;
   height: auto;
+  
 }
 
 .image-caption {
