@@ -1,0 +1,88 @@
+.logo {
+    display: flex;
+    height: 180px;
+    justify-content: right;
+    margin-right: 100%;
+    position: absolute;
+    margin-bottom: 600px;
+    margin-left: 50px;
+    border-radius: 50px;
+    }
+    
+    .cancionespop {
+    background-color: rgba(218, 26, 19, 0.6);
+    height: 50%;
+    margin: 4%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: -700px;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .pop {
+    display: flex;
+    margin-left: 70px;
+    justify-content: space-between;
+    }
+    
+    .galeria {
+    display: flex;
+    margin-right: 70px;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .img-index {
+    width: 90%;
+    height: 500px;
+    }
+    
+    .foto .img-index {
+    padding-right: 20px;
+    }
+    
+    .descripcion {
+    background-color: beige;
+    font-size: 18px;
+    align-items: center;
+    }
+    
+    .image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .image-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    }
+    
+    .img-index:hover {
+    transform: rotate(350deg);
+    }
+    
+    .image-item img {
+    width: 100%;
+    height: auto;
+    }
+    
+    .image-caption {
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    h3,
+    p {
+    margin: 0;
+    }
+    }
+    
+    
+    
+    
+    
+    
