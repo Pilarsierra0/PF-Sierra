@@ -350,9 +350,12 @@ button:hover {
 
 .titulo-vid {
   font-size: 50px;
-  margin-bottom: 10px;
-  margin-top: 257px;
+  margin-bottom: 20px;
+  margin-top: -137px;
   color: black;
+  text-align: center;
+  margin-left: 200px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .titulo-video {
