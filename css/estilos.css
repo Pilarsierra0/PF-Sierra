@@ -80,7 +80,21 @@
   margin: 0;
 }
 
-
+.varias-secciones {
+  display: flex;
+  text-decoration: none;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100%;
+  text-align: center;
+  position: relative;
+  top: 370px;
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  width: 1000px;
+  height: 55px;
+}
 
 .navbar {
   margin-left: 450px;
@@ -429,6 +443,21 @@ body {
   color: black;
   width: 1000px;
   height: 55px;
+}
+
+.secciones {
+  list-style: none;
+  text-decoration: none;
+  color: beige;
+  display: flex;
+  text-align: center;
+  top: 10px;
+  position: relative;
+  margin-bottom: 3px;
+  font-size: 18px;
+  color: black;
+  margin: 0%;
+  padding-right: 0%;
 }
 
 .img-carousel {
