@@ -1,3 +1,17 @@
+.contenedor-titulo {
+    display: flex;
+  }
+  
+  .titulo {
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 300px;
+    height: 86px;
+    width: 400px;
+    color: black;
+  }
+  
+
 .logo {
     display: flex;
     height: 180px;
