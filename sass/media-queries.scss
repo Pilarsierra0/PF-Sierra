@@ -1,0 +1,25 @@
+
+  @media screen and (max-width: 768px) {
+
+    .text-izquierdo, .text-derecho, .link-medio {
+        flex-basis: 100%;
+      }
+    
+      footer{
+       height: 90px;
+      }
+      .logo-container {
+        justify-content: center;
+      }
+    .ticket-section {
+      grid-template-columns: 1fr;
+     }
+    .image-item {
+     width: 100%;
+     }
+        
+     .ticket-section {
+      grid-template-columns: 1fr;
+     }
+
+  }
