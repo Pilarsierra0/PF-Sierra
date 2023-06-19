@@ -80,6 +80,8 @@
   margin: 0;
 }
 
+
+
 .navbar {
   margin-left: 450px;
   margin-top: -132px;
@@ -411,6 +413,33 @@ body {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+.varias-secciones {
+  display: flex;
+  text-decoration: none;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100%;
+  text-align: center;
+  position: relative;
+  top: 370px;
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  width: 1000px;
+  height: 55px;
+}
+
+.img-carousel {
+  width: 1000px;
+  height: 600px;
+  margin-left: 190px;
+  margin-top: px;
+}
+
+p {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

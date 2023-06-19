@@ -1,4 +1,4 @@
-.varias-secciones{
+.varias-secciones {
     display: flex;
     text-decoration: none;
     margin-left: 200px;
@@ -12,5 +12,20 @@
     color: black;
     width: 1000px;
     height: 55px;
-   
-}
+  }
+  
+  .secciones {
+    list-style: none;
+    text-decoration: none;
+    color: beige;
+    display: flex;
+    text-align: center;
+    top: 10px;
+    position: relative;
+    margin-bottom: 3px;
+    font-size: 18px;
+    color: black;
+    margin: 0%;
+    padding-right: 0%;
+  }
+  
