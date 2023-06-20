@@ -23,7 +23,27 @@ $menu-height: 27px;
 
 
 
-
+.collapse{
+  .navbar {
+    margin-left: 450px;
+    margin-top: -132px;
+    width: 770px;
+    height: 50px;
+    margin-bottom: 500px;
+  
+    .container-fluid {
+      background-color: #ce1e1e;
+    }
+  
+    .navbar-nav {
+      margin-right: 30px;
+  
+      .nav-item {
+        margin-right: 30px;
+      }
+    }
+  }
+}
   
 
 
