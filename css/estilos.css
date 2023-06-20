@@ -492,7 +492,7 @@ p {
     flex-basis: 100%;
   }
   footer {
-    height: 90px;
+    height: 100px;
   }
   .logo-container {
     justify-content: center;
@@ -505,6 +505,22 @@ p {
   }
   .ticket-section {
     grid-template-columns: 1fr;
+  }
+  .navbar {
+    width: 74px;
+  }
+}
+@media screen and (min-width: 410px) {
+  footer {
+    height: 200px;
+  }
+  .navbar {
+    width: 70px;
+    margin-left: 400px;
+  }
+  .logo {
+    max-width: 80%;
+    text-align: center;
   }
 }
 
