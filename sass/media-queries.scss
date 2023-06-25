@@ -7,7 +7,7 @@
     
       footer{
        height: 100px;
-
+       width: 770px;
       }
       .logo-container {
         justify-content: center;
@@ -24,23 +24,184 @@
      }
 
      .navbar{
-        width: 74px;
+      width: 128px;
+      height: 57px;
+      margin-left: 638px;
+      margin-top: -117px;
+    }
+    .carrousel-image{
+      width: 80%;
+      margin-left: 82px;
+    }
+    .menu{
+      height: 58px;
+      width: 776px;
+    }
+    .carousel-caption{
+      left: 18%;
+      font-size: 20px;
+    }
+    .contenedor-titulo{
+      margin-left: 181px;
+    }
+    .titulo{
+      margin-top: -172px;
+    }
+    .container-video{
+      grid-template-columns: none;
+      gap: 53px;
+      margin-left: 148px;
+    }
+    .contenido-video{
+      width: 72%;
+    }
+    .contenido-texto{
+      width: 100%;
+    }
+    .titulo-video{
+      margin-left: -188px;
+      font-size: 25px;
+      text-align: center;
+    }
+    .titulo-vid{
+      font-size: 28px;
+      text-align: center;
+      margin-left: 304px;
+    }
+    .justify-content-center{
+      height: 71px;
+  }
+  .title-morat{
+    font-size: 42px;
+    margin-left: 316px;
+  }
+  .logo{
+    height: 127px;
+    margin-left: 26px;
+  }
+  }
+  @media screen and (max-width: 480px){
+    footer{
+        height: 200px;
+        width: 480px;
+       }
+   
+    .logo{
+        max-width: 136%;
+        text-align: center;
+    }
+    .logo-container{
+      width: 219px;
+    }
+    .contenedor-titulo{
+      font-size: 16px;
+      text-align: left;
+      margin-left: 141px;
+    }
+    .title-morat{
+      font-size: 53px;
+      margin-left:209px;
+    }
+    .col{
+      margin-left:-60px ;
+    }
+    .justify-content-center{
+      height: 100px;
+      width: 483px;
+    }
+    .carrousel-image{
+      width: 77%;
+      margin-left: 56px;
+    }
+    .navbar{
+      width: 129px;
+      height: 57px;
+      margin-left: 349px;
+      margin-top: -98px;
+    }
+    .card{
+      margin-left: 150px;
+    }
+    .menu{
+      width: 480px;
+    }
+    .titulo-vid{
+      margin-left: 252px;
+    }
+  }
+
+  @media screen and (max-width: 360px){
+    .menu{
+      width: 390px;
+      height: 118px;
+    }
+    .logo{
+      height: 94px;
+      margin-top: 20px;
+    }
+    .title-morat{
+      font-size: 36px;
+      margin-left: 172px;
+      margin-top: 170px;
+    }
+    .justify-content-center{
+      height: 105px;
+      width: 360px;
+    }
+    .card{
+      margin-left: 92px;
+    }
+    .footer{
+      height: 147px;
+      width: 364px;
+    }
+    .logo-container{
+      margin-top: 216px;
+    }
+    .logo-container img{
+      max-width: 118px;
+      margin-left: -147px;
+    }
+    .titulo{
+      margin-top: -190px;
+      font-size: 40px;
+      margin-left: 40px;
+    }
+    .navbar{
+      width: 123px;
+      height: 57px;
+      margin-left: 232px;
+      margin-top: -84px;
+    }
+    .contenedor-titulo{
+      margin-left: 58px;
+    }
+    .d-none{
+      font-size: 12px;
+      display: contents;
+    }
+    .container-video{
+      margin-left: 87px;
+    }
+    .content{
+      width: 60px;
+      height: 100%;
+      display: flex;
+      margin-left: -10px;
+    }
+    .content p{
+      margin: 10px;
+      text-align:inherit;
+    }
+    .content img{
+      width: 145px;
+      margin-right: 15px;
     }
 
   }
-
-  @media screen and (min-width: 410px){
-    footer{
-        height: 200px;
- 
-       }
-    .navbar{
-        
-        width: 70px;
-        margin-left: 400px;
-    }
-    .logo{
-        max-width: 80%;
-        text-align: center;
+  @media screen and (max-width: 360px){
+    .footer{
+      height: 147px;
+      width: 364px;
     }
   }

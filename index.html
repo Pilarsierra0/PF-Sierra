@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favaicon/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>MORAT</title>
 </head>
@@ -26,55 +28,75 @@
         </div>
         
     </header>
-    <div>
+    <div class="titulo-index">
         <a href="./index.html"></a>
         <img src="./img/logomorat3.jpg" class="logo" alt="">
-        <h1>MORAT</h1>
+        <h1 class="title-morat">MORAT</h1>
     </div>
 
 
-        <div class="varias-secciones">
-            <ul >
-                <li><a class="secciones" href="./pages/noticias.html" >Noticias</a></li>
-                <li><a class="secciones" href="./pages/biografia.html" >Biografia</a></li>
-                <li><a class="secciones" href="./pages/videosConMasReproducciones.html">Videos con mas Reproducciones</a></li>
-                <li><a class="secciones" href="./pages/conciertos.html">Conciertos</a></li>
-            </ul>
-        </div>
-     </div>
+    <ul class="justify-content-center">
+      <li class="nav-items">
+        <a class="nav-link-paginas" aria-current="page" href="../index.html">Inicio</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link-paginas" href="./pages/noticias.html">Noticias</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link-paginas" href="./pages/biografia.html">Biografia</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link-paginas" href="./pages/videosConMasReproducciones.html" >Videos</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link-paginas" href="./pages/conciertos.html" >Conciertos</a>
+      </li>
+    </ul>
 
      <div class="cancionespop">
         <h2 class="titulo2">CANCIONES MAS POLPULARES</h2>
      </div>
      
     
-
-      <section class="image-section">
-        <div class="image-item">
-          <img class="img-index" src="./img/besosEnGuerra.jpg" alt="Imagen de la cancion -besos en guerra-">
-          <div class="image-caption">
-            <h3>BESOS EN GUERRA</h3>
-            <p>La canción, como es tradicional del cuarteto bogotano, mezcla ritmos de Flok Pop y le canta al desamor. El video narra la relación de una pareja, en la cual el hombre es solado profesional, quien deja reiteradamente a la mujer por los compromisos que debe cumplir</p>
-          </div>
-        </div>
-        <div class="image-item">
-          <img class="img-index" src="./img/cuandoNadieVe.jpg" alt="imagen de la cancion -cuando nadie ve-">
-          <div class="image-caption">
-            <h3>CUANDO NADIE VE</h3>
-            <p>Esta canción relata la historia de alguien que encuentra una persona y se da cuenta que es ella con la que quiere estar. Sin embargo, se percata de que, por cosas de la vida, hay un tercero que impide esta relación</p>
-          </div>
-        </div>
-
-        <div class="image-item">
-            <img class="img-index" src="./img/noseva.jpg" alt="Imagen de la cancion -no se va-">
-            <div class="image-caption">
-              <h3>NO SE VA</h3>
-              <p>En 2018, durante una gira por España, los integrantes del grupo colombiano Morat vieron en una discoteca que sus canciones también eran usadas en las pistas de baile por lo que decidieron componer un tema musical que se acomode mejor a las discotecas y nació: No se va</p>
-            </div>
-          </div>
-      </section>
       
-
+     <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card"data-aos="flip-up"  >
+          <img src="./img/besosEnGuerra.jpg" class="card-index" alt="Besos en guerra de Morat">
+          <div class="card-body">
+            <h5 class="card-title">BESOS EN GUERRA</h5>
+            <p class="card-text">La canción, como es tradicional del cuarteto bogotano, mezcla ritmos de Flok Pop y le canta al desamor. El video narra la relación de una pareja, en la cual el hombre es solado profesional, quien deja reiteradamente a la mujer por los compromisos que debe cumplir</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" data-aos="flip-up" >
+          <img src="./img/cuandoNadieVe.jpg" class="card-index" alt="Cuando Nadie Ve de Morat">
+          <div class="card-body">
+            <h5 class="card-title">Cuando Nadie Ve</h5>
+            <p class="card-text">Esta canción relata la historia de alguien que encuentra una persona y se da cuenta que es ella con la que quiere estar. Sin embargo, se percata de que, por cosas de la vida, hay un tercero que impide esta relación</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card"data-aos="flip-up" >
+          <img src="./img/consejodeamor.jpg" class="card-index" alt="consejo de amor con tini">
+          <div class="card-body">
+            <h5 class="card-title">Consejo de Amor</h5>
+            <p class="card-text">Relata la historia de dos personas que se enamoran pero que nunca se animan a dar el primer paso para concretar una relación.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card"data-aos="flip-up" >
+          <img src="./img/noseva.jpg" class="card-index" alt="No Se Va de Morat">
+          <div class="card-body">
+            <h5 class="card-title">No Se Va</h5>
+            <p class="card-text">En 2018, durante una gira por España, los integrantes del grupo colombiano Morat vieron en una discoteca que sus canciones también eran usadas en las pistas de baile por lo que decidieron componer un tema musical que se acomode mejor a las discotecas y nació: No se va</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -101,7 +123,10 @@
       
 
 
-
-
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
