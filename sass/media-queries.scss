@@ -87,11 +87,11 @@
        }
    
     .logo{
-        max-width: 136%;
+        max-width: 123%;
         text-align: center;
     }
     .logo-container{
-      width: 219px;
+      width: 175px;
     }
     .contenedor-titulo{
       font-size: 16px;
@@ -116,7 +116,7 @@
     .navbar{
       width: 129px;
       height: 57px;
-      margin-left: 349px;
+      margin-left: 257px;
       margin-top: -98px;
     }
     .card{
@@ -132,12 +132,13 @@
 
   @media screen and (max-width: 360px){
     .menu{
-      width: 390px;
+      width: 359px;
       height: 118px;
     }
     .logo{
       height: 94px;
       margin-top: 20px;
+      max-width: 95px;
     }
     .title-morat{
       font-size: 36px;
@@ -146,17 +147,15 @@
     }
     .justify-content-center{
       height: 105px;
-      width: 360px;
+      width: 473px;
     }
     .card{
-      margin-left: 92px;
+      margin-left: 149px;
     }
-    .footer{
-      height: 147px;
-      width: 364px;
-    }
+  
     .logo-container{
-      margin-top: 216px;
+      margin-top: 116px;
+      width: 278px;
     }
     .logo-container img{
       max-width: 118px;
@@ -170,11 +169,11 @@
     .navbar{
       width: 123px;
       height: 57px;
-      margin-left: 232px;
-      margin-top: -84px;
+      margin-left: 154px;
+      margin-top: 25px;
     }
     .contenedor-titulo{
-      margin-left: 58px;
+      margin-left: 77px;
     }
     .d-none{
       font-size: 12px;
@@ -197,11 +196,10 @@
       width: 145px;
       margin-right: 15px;
     }
+    footer{
+      height: 147px;
+      width: 360px;
+    }
 
   }
-  @media screen and (max-width: 360px){
-    .footer{
-      height: 147px;
-      width: 364px;
-    }
-  }
+ 
