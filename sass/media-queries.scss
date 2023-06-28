@@ -41,7 +41,7 @@
     
       footer{
        height: 100px;
-       width: 770px;
+       width: 484px;
       }
       .logo-container {
         justify-content: center;
@@ -69,7 +69,7 @@
     }
     .menu{
       height: 58px;
-      width: 776px;
+      width: 484px;
     }
     .carousel-caption{
       left: 18%;
@@ -104,6 +104,7 @@
     }
     .justify-content-center{
       height: 71px;
+      width: 484px;
   }
   .title-morat{
     font-size: 42px;
@@ -113,11 +114,20 @@
     height: 127px;
     margin-left: 26px;
   }
+  .card{
+    margin-left: 196px;
+    width: 232px;
+    height: 691px;
+  }
+  .card-index{
+    width: 230px;
+    height: 195px;
+  }
   }
   @media screen and (max-width: 480px){
     footer{
         height: 200px;
-        width: 480px;
+        width: 484px;
        }
    
     .logo{
@@ -125,7 +135,7 @@
         text-align: center;
     }
     .logo-container{
-      width: 175px;
+      width: 210px;
     }
     .contenedor-titulo{
       font-size: 16px;
@@ -141,7 +151,7 @@
     }
     .justify-content-center{
       height: 100px;
-      width: 483px;
+      width: 484px;
     }
     .carrousel-image{
       width: 77%;
@@ -154,19 +164,25 @@
       margin-top: -98px;
     }
     .card{
-      margin-left: 150px;
+      margin-left: 196px;
     }
     .menu{
-      width: 480px;
+      width: 484px;
     }
-    .titulo-vid{
-      margin-left: 252px;
+    .titulo-video{
+      margin-left: -330px;
+    }
+    .container-video{
+      margin-left: 96px;
+    }
+    .contenido-video{
+      width: 65%;
     }
   }
 
   @media screen and (max-width: 360px){
     .menu{
-      width: 358px;
+      width: 368px;
       height: 118px;
     }
     .logo{
@@ -181,10 +197,10 @@
     }
     .justify-content-center{
       height: 105px;
-      width: 358px;
+      width: 368px;
     }
     .card{
-      margin-left: 88px;
+      margin-left: 137px;
     }
   
     .logo-container{
@@ -232,7 +248,10 @@
     }
     footer{
       height: 147px;
-      width: 358px;
+      width: 368px;
+    }
+    .biography{
+      width: 368px;
     }
 
   }
