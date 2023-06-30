@@ -537,6 +537,28 @@ p {
   margin-left: 122px;
 }
 
+.carousel-text {
+  text-align: center;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: -95px;
+  color: white;
+}
+
+.carousel-text {
+  font-size: 20px;
+}
+
+#parrafo-carousel {
+  font-size: 8px;
+  text-align: center;
+}
+
+#titulo-carousel {
+  font-size: 9px;
+  text-align: center;
+}
+
 @media screen and (max-width: 1008px) {
   .menu {
     width: 1008px;
@@ -657,17 +679,17 @@ p {
     height: 195px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
   footer {
     height: 200px;
-    width: 484px;
+    width: 425px;
   }
   .logo {
-    max-width: 123%;
+    max-width: 138px;
     text-align: center;
   }
-  .logo-container {
-    width: 210px;
+  .logo-container img {
+    max-width: 138px;
   }
   .contenedor-titulo {
     font-size: 16px;
@@ -675,15 +697,16 @@ p {
     margin-left: 141px;
   }
   .title-morat {
-    font-size: 53px;
+    font-size: 49px;
     margin-left: 209px;
+    margin-top: 185px;
   }
   .col {
     margin-left: -60px;
   }
   .justify-content-center {
     height: 100px;
-    width: 484px;
+    width: 425px;
   }
   .carrousel-image {
     width: 77%;
@@ -696,10 +719,11 @@ p {
     margin-top: -98px;
   }
   .card {
-    margin-left: 196px;
+    margin-left: 158px;
   }
   .menu {
-    width: 484px;
+    width: 425px;
+    height: 118px;
   }
   .titulo-video {
     margin-left: -330px;
@@ -709,6 +733,9 @@ p {
   }
   .contenido-video {
     width: 65%;
+  }
+  .titulo {
+    margin-top: -210px;
   }
 }
 @media screen and (max-width: 360px) {
