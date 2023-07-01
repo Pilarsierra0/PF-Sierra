@@ -41,7 +41,7 @@
     
       footer{
        height: 100px;
-       width: 727px;
+       width: 768px;
       }
       .logo-container {
         justify-content: center;
@@ -55,6 +55,10 @@
         
      .ticket-section {
       grid-template-columns: 1fr;
+      width: 768px;
+     }
+     .ticket-seleccion{
+      width: 768px;
      }
 
      .navbar{
@@ -69,7 +73,7 @@
     }
     .menu{
       height: 58px;
-      width: 727px;
+      width: 768px;
     }
     .carousel-caption{
       left: 18%;
@@ -104,7 +108,7 @@
     }
     .justify-content-center{
       height: 71px;
-      width: 484px;
+      width: 768px;
   }
   .title-morat{
     font-size: 42px;
@@ -115,7 +119,7 @@
     margin-left: 26px;
   }
   .card{
-    margin-left: 196px;
+    margin-left: 126px;
     width: 232px;
     height: 691px;
   }
@@ -130,7 +134,13 @@
     font-size: 14px;
   }
   .biography{
-    width: 727px;
+    width: 768px;
+  }
+  .title{
+    margin-left: 65px; 
+  }
+  .content img{
+    margin-left: 30px;
   }
   }
   @media screen and (max-width: 425px){
