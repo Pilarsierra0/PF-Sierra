@@ -244,6 +244,7 @@ li {
 .biography {
   background-color: #f2f2f2;
   padding: 40px;
+  width: 300px;
 }
 
 .container {
@@ -327,7 +328,8 @@ a:hover {
   padding: 40px;
   text-align: center;
   margin-bottom: 95px;
-  margin-top: -322px;
+  margin-top: -193px;
+  width: 727px;
 }
 
 .form-container {
@@ -373,6 +375,7 @@ input[type=time] {
   padding: 20px;
   text-align: center;
   background-color: #ff0000;
+  width: 727px;
 }
 
 .precio {
@@ -679,10 +682,13 @@ p {
     height: 195px;
   }
   #titulo-carousel {
-    font-size: 20px;
+    font-size: 23px;
   }
   #parrafo-carousel {
     font-size: 14px;
+  }
+  .biography {
+    width: 727px;
   }
 }
 @media screen and (max-width: 425px) {
