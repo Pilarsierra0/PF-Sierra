@@ -136,7 +136,7 @@
   @media screen and (max-width: 425px){
     footer{
         height: 200px;
-        width: 425px;
+        width: 431px;
        }
    
     .logo{
@@ -144,7 +144,7 @@
         text-align: center;
     }
     .logo-container img{
-      max-width: 138px;
+      max-width: 111px;
     }
     .contenedor-titulo{
       font-size: 16px;
@@ -161,7 +161,7 @@
     }
     .justify-content-center{
       height: 100px;
-      width: 425px;
+      width: 431px;
     }
     .carrousel-image{
       width: 77%;
@@ -170,14 +170,14 @@
     .navbar{
       width: 129px;
       height: 57px;
-      margin-left: 257px;
-      margin-top: -98px;
+      margin-left: 206px;
+      margin-top: 28px;
     }
     .card{
       margin-left: 158px;
     }
     .menu{
-      width: 425px;
+      width: 431px;
       height: 118px;
     }
     .titulo-video{
@@ -190,7 +190,23 @@
       width: 65%;
     }
     .titulo{
-      margin-top: -210px;
+      margin-top: -153px;
+    }
+    .logo-container{
+      max-width: 207px;
+      margin-top: 161px;
+    }
+    #titulo-carousel{
+      font-size: 11px;
+    }
+    #parrafo-carousel{
+      font-size: 8px;
+    }
+    .ticket-section{
+      width: 429px;
+    }
+    .ticket-seleccion{
+      width: 429px;
     }
   }
 
