@@ -41,7 +41,7 @@
     
       footer{
        height: 100px;
-       width: 484px;
+       width: 727px;
       }
       .logo-container {
         justify-content: center;
@@ -60,7 +60,7 @@
      .navbar{
       width: 128px;
       height: 57px;
-      margin-left: 557px;
+      margin-left: 475px;
       margin-top: -117px;
     }
     .carrousel-image{
@@ -69,7 +69,7 @@
     }
     .menu{
       height: 58px;
-      width: 484px;
+      width: 727px;
     }
     .carousel-caption{
       left: 18%;
@@ -122,6 +122,12 @@
   .card-index{
     width: 230px;
     height: 195px;
+  }
+  #titulo-carousel{
+    font-size: 23px;
+  }
+  #parrafo-carousel{
+    font-size: 14px;
   }
   }
   @media screen and (max-width: 425px){
