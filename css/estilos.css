@@ -388,7 +388,11 @@ input[type=time] {
   padding: 20px;
   text-align: center;
   background-color: #ff0000;
-  width: 727px;
+  width: 1367px;
+}
+
+.ticket-seleccion {
+  width: 1367px;
 }
 
 .precio {
@@ -784,10 +788,23 @@ p {
     display: inline-block;
   }
   .biography {
-    width: 426px;
+    width: 425px;
   }
   .content img {
     width: 128px;
+  }
+  .content p {
+    margin-bottom: -11px;
+    font-size: 11px;
+  }
+  .p {
+    margin-left: -79px;
+  }
+  .title {
+    text-align: center;
+  }
+  .content img {
+    margin-left: 93px;
   }
 }
 @media screen and (max-width: 360px) {

@@ -213,10 +213,23 @@
       display: inline-block;
     }
     .biography{
-      width: 426px;
+      width: 425px;
     }
     .content img{
       width: 128px;
+    }
+    .content p{
+      margin-bottom: -11px;
+      font-size: 11px;
+    }
+    .p{
+      margin-left: -79px;
+    }
+    .title{
+      text-align: center;
+    }
+    .content img{
+      margin-left: 93px;
     }
 
   }
