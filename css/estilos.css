@@ -250,6 +250,7 @@ li {
 .container {
   max-width: 800px;
   margin: 0 auto;
+  width: 30px;
 }
 
 .title {
@@ -261,6 +262,8 @@ li {
 .content {
   display: flex;
   align-items: center;
+  width: 20px;
+  font-size: 10px;
 }
 
 .content img {
@@ -495,6 +498,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .varias-secciones {
@@ -698,7 +702,7 @@ p {
 @media screen and (max-width: 425px) {
   footer {
     height: 200px;
-    width: 431px;
+    width: 425px;
   }
   .logo {
     max-width: 138px;
@@ -738,7 +742,7 @@ p {
     margin-left: 158px;
   }
   .menu {
-    width: 431px;
+    width: 425px;
     height: 118px;
   }
   .titulo-video {
@@ -768,6 +772,16 @@ p {
   }
   .ticket-seleccion {
     width: 429px;
+  }
+  .container {
+    width: 344px;
+    display: inline-block;
+  }
+  .biography {
+    width: 426px;
+  }
+  .content img {
+    width: 128px;
   }
 }
 @media screen and (max-width: 360px) {

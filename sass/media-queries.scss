@@ -136,7 +136,7 @@
   @media screen and (max-width: 425px){
     footer{
         height: 200px;
-        width: 431px;
+        width: 425px;
        }
    
     .logo{
@@ -177,7 +177,7 @@
       margin-left: 158px;
     }
     .menu{
-      width: 431px;
+      width: 425px;
       height: 118px;
     }
     .titulo-video{
@@ -208,6 +208,17 @@
     .ticket-seleccion{
       width: 429px;
     }
+    .container{
+      width: 344px;
+      display: inline-block;
+    }
+    .biography{
+      width: 426px;
+    }
+    .content img{
+      width: 128px;
+    }
+
   }
 
   @media screen and (max-width: 360px){
