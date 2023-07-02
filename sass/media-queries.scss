@@ -103,21 +103,23 @@
       font-size: 20px;
     }
     .contenedor-titulo{
-      margin-left: 181px;
+      margin-left: 186px;
     }
     .titulo{
       margin-top: -172px;
+      font-size: 42px;
+      margin-left: 20px;
     }
     .container-video{
       grid-template-columns: none;
       gap: 53px;
-      margin-left: 148px;
+      margin-left: 36px;
     }
     .contenido-video{
-      width: 72%;
+      width: 75%;
     }
     .contenido-texto{
-      width: 100%;
+      width: 57%;
     }
     .titulo-video{
       margin-left: -188px;
@@ -182,7 +184,7 @@
     .contenedor-titulo{
       font-size: 16px;
       text-align: left;
-      margin-left: 141px;
+      margin-left: 107px;
     }
     .title-morat{
       font-size: 49px;
@@ -217,7 +219,10 @@
       margin-left: -330px;
     }
     .container-video{
-      margin-left: 96px;
+      margin-left: -36px;
+    }
+    .titulo-vid{
+      margin-left: 370px;
     }
     .contenido-video{
       width: 65%;
