@@ -633,6 +633,9 @@ p {
     width: 575px;
     margin-left: 176px;
   }
+  .biography {
+    width: 1008px;
+  }
 }
 @media screen and (max-width: 768px) {
   .text-izquierdo, .text-derecho, .link-medio {
