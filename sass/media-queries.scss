@@ -301,7 +301,7 @@
     }
     .logo-container img{
       max-width: 118px;
-      margin-left: -147px;
+      margin-left: -57px;
     }
     .titulo{
       margin-top: -190px;
@@ -322,28 +322,41 @@
       display: contents;
     }
     .container-video{
-      margin-left: 87px;
+      margin-left: -83px;
     }
     .content{
       width: 60px;
       height: 100%;
-      display: flex;
-      margin-left: -10px;
+      margin-left: -12px;
     }
     .content p{
       margin: 10px;
       text-align:inherit;
+      font-size: 9px;
     }
     .content img{
       width: 145px;
       margin-right: 15px;
+      margin-top: -9px;
     }
     footer{
       height: 147px;
       width: 368px;
     }
     .biography{
-      width: 368px;
+      width: 360px;
+    }
+    .title{
+      margin-left: -72px;
+    }
+    .p{
+      margin-left: -44px;
+    }
+    .ticket-section{
+      width: 360px;
+    }
+    .ticket-seleccion{
+      width: 360px;
     }
 
   }
